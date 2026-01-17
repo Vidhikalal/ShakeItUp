@@ -6,7 +6,16 @@ const app = express();
 app.use(cors());
 app.get("/health", (_, res) => res.json({ ok: true }));
 
-const server = app.listen(8000, () => console.log("HTTP/WS on :8000"));
+const PORT = process.env.PORT || 8000;
+
+const server = app.listen(PORT, "0.0.0.0", () => {
+  const addr = server.address();
+  console.log("LISTENING:", addr);
+});
+
+server.on("error", (err) => {
+  console.error("LISTEN ERROR:", err);
+});
 
 /**
  * WS protocol:
