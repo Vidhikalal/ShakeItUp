@@ -1,3 +1,4 @@
+[Click here to watch the demo video](https://youtu.be/Y3Pn04fegvw)
 # VYBE — Feel the Music
 
 VYBE is an accessibility-first music experience designed for the Deaf and Hard-of-Hearing community.  
