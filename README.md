@@ -1,50 +1,103 @@
-# Welcome to your Expo app 👋
+# 🎧 VYBE — Feel the Music
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+VYBE is an accessibility-first music experience designed for the Deaf and Hard-of-Hearing community.  
+Instead of *hearing* music, users **feel it through intelligent vibration patterns**, allowing them to connect with rhythm, beats, and emotion in a completely new way.
 
-## Get started
+Music isn’t just sound — it’s movement, energy, and feeling.  
+VYBE makes sure everyone gets to experience it.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ What VYBE Does
 
-2. Start the app
+- 🎶 Converts music and audio signals into **real-time vibration patterns**
+- 📳 Uses **haptic feedback** to represent beats, bass, tempo, and intensity
+- 🤖 Leverages **AI (Gemini)** to analyze audio features and map them to meaningful vibrations
+- ⚡ Streams data in real time using **WebSockets** for low-latency feedback
+- ♿ Built with accessibility and inclusivity at the core
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧠 How It Works (High Level)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. **Audio Input**  
+   Music is analyzed for tempo, amplitude, frequency, and rhythm.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. **AI Analysis (Gemini)**  
+   Gemini processes the audio features and determines vibration patterns that best represent the music.
 
-## Get a fresh project
+3. **Real-Time Communication**  
+   Vibration data is streamed using WebSockets for instant feedback.
 
-When you're ready, run:
+4. **Haptic Output (iOS)**  
+   The iOS app translates the data into vibrations users can physically feel.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Tech Stack
 
-## Learn more
+**Frontend / Mobile**
+- Swift
+- Xcode
+- iOS Haptics Engine
 
-To learn more about developing your project with Expo, look at the following resources:
+**AI & Logic**
+- Gemini (audio understanding & pattern mapping)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Backend**
+- MongoDB (user data, preferences, sessions)
+- WebSockets (real-time vibration streaming)
 
-## Join the community
+**Design & Prototyping**
+- Lovable
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📱 Platform
+
+- iOS (Swift-based application)
+
+> Built and tested using Xcode
+
+---
+
+## ♿ Accessibility Focus
+
+VYBE is designed with:
+- Minimal visual dependency
+- Strong tactile feedback
+- Customizable vibration intensity
+- Inclusive UX principles
+
+This project is built **with accessibility in mind — not as an afterthought**.
+
+---
+
+## 🚀 Future Improvements
+
+- 🎵 Support for live concerts & external audio sources
+- 🎚️ Custom vibration profiles per music genre
+- ⌚ Apple Watch haptic integration
+- 🌍 Cross-platform support
+- 🧑‍🤝‍🧑 Community-shared vibration patterns
+
+---
+
+## 💙 Why VYBE Matters
+
+Millions of Deaf and Hard-of-Hearing individuals are excluded from music-centric experiences.  
+VYBE reimagines what it means to “listen” — turning sound into something **felt, shared, and inclusive**.
+
+---
+
+## 👥 Team
+
+Built with empathy, innovation, and purpose 💙  
+If you’re reading this — thank you for caring about accessibility.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
